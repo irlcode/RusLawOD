@@ -50,7 +50,7 @@ XML structure is reported in the below example with comments.All fields are not 
     <textIPS><-- Text parsed from the IPS Zakonodatelstvo --> 
     <!-- It can include hyperlinks to other acts, mostly amendments,
     like this: --> text <ref>linked text</ref> text 
-  </textIPS>
+    </textIPS>
     <textOCR> <-- Text from OCR of official publication scan -->
     </textOCR> 
     <textOCR truncated="yes"> <-- Text from OCR if it was truncated while OCR -->
@@ -72,4 +72,4 @@ Russian law excludes texts of legal acts from copyright protection so they can b
 Other materials of the project distributed under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
 ## Contact
-Denis Savelev (@denissaveliev) at the Institute for the Rule of Law  (http://enforce.spb.ru/about-us/team/6922-savelev-denis-aleksandrovich)
+Denis Savelev ([@denissaveliev](https://github.com/denissaveliev)) at the Institute for the Rule of Law (IRL) at the European University at Saint-Petersburg (EUSPb) (http://enforce.spb.ru/about-us/team/6922-savelev-denis-aleksandrovich)
