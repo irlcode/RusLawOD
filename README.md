@@ -27,13 +27,13 @@ XML structure is reported in the below example with comments.All fields are not 
       <issuedByIPS val="Entity that issued the act according to the IPS Zakonodatelstvo" />
       <docdateIPS val="00.00.0000" /> <!-- document day of signature according to the IPS 
       Zakonodatelstvo, date format is dd.mm.yyyy-->
-      <docnumberIPS val="000" /> <!-- document number at signature according to the IPS Zakonodatelstvo -->
-      <headingIPS val="title of the document in the IPS Zakonodatelstvo." /> 
+      <docNumberIPS val="000" /> <!-- document number at signature according to the IPS Zakonodatelstvo -->
+      <headingIPS>title of the document in the IPS Zakonodatelstvo.</headingIPS> 
       <docTypeByOP val="document type according to the Official publication website" /> 
       <authorByOP val="body that issued the act according to the Official publication website" /> 
       <docDateByOP val="00.00.0000" /> <!-- document adoption data by official publication site date format dd.mm.yyyy-->
       <docNumberByOP val="000" /> <!-- document number at signature-->
-      <docTitleByOP val="title of the document according to official publication site" /> 
+      <docTitleByOP> title of the document according to official publication site </docTitleByOp> 
     </identification>
     <references>
       <classifierByIPS val="000.000.000.000.000" /> <!-- classification code according to the IPS Zakonodatelstvo -->
