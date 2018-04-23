@@ -13,7 +13,7 @@ To the moment we combine texts and metadata from two major sources (both from ht
  We relied on Tesseract OCR (https://github.com/tesseract-ocr/tesseract) to obtain texts from scanned images. Some texts consist of more than 500 pages (actually, we have some texts more than 15000 pages) representing only financial, geographical information in tables of digits or such. We decided to cut OCR of such texts on page 500. See more in Limitations. 
 
 ## Importance of schema development
-Since legal acts can be transferred among different databases it is important to conclude a broad convention about metadata standard. It is a good practice to use already developed standard so we are using Akoma Ntoso (http://www.akomantoso.org/) as a basic idea. But for now we are not fully conform with it for simplicity reasons (as a major difference we cannot make internal structure of a text yet) 
+Since legal acts can be transferred among different databases it is important to conclude a broad convention about metadata standard. It is a good practice to use already developed standard so we are using Akoma Ntoso (http://www.akomantoso.org/) as a basic idea. But for now we are not fully conform with it (we cannot make internal structure of a text). 
 
 ## XML structure
 XML structure is reported in the below example with comments.All fields are not mandatory and are present in a document only if the information exists.
