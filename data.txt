@@ -27,6 +27,7 @@ https://s3.eu-central-1.amazonaws.com/ruslawod/2015-1.zip
 https://s3.eu-central-1.amazonaws.com/ruslawod/2015-2.zip
 https://s3.eu-central-1.amazonaws.com/ruslawod/2016-1.zip
 https://s3.eu-central-1.amazonaws.com/ruslawod/2016-2.zip
-https://s3.eu-central-1.amazonaws.com/ruslawod/2017.zip
+https://s3.eu-central-1.amazonaws.com/ruslawod/2017-1.zip
+https://s3.eu-central-1.amazonaws.com/ruslawod/2017-2.zip
+https://s3.eu-central-1.amazonaws.com/ruslawod/2017-3.zip
 https://s3.eu-central-1.amazonaws.com/ruslawod/metadata.zip
-
