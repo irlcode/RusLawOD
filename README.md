@@ -66,6 +66,13 @@ There is no uniform identification number of a legal act in Russia, so we use th
 
 Only first versions of acts (as were initially signed by relevant body) are taken. The corpus does not include consolidated (with further amendments) texts actual to the present date. It could only happen if the initial publications (pre-1990) already included amendments.
 
+## Applications
+We have published a policy memo “The Complexity of Legal Acts in Russia. Lexical and Syntactic Quality of Texts" (In Russian)
+
+Using the methods of computational linguistics we have analyzed the dynamics of changes in the lexical and syntactic quality of texts of legal acts. It was concluded that in Russia there is a deterioration in the quality of texts of federal and regional legal acts for perception - a drop in lexical diversity, a complication in the structure of sentences. In recent years, this trend has intensified. It is noted that the most complex constructions of sentences are found in the texts of the Constitutional Court of the Russian Federation, as well as the authorities associated with the financial and budgetary sphere of regulation. We compared it to a dynamics of a newspaper corpus metrics and conclude that the newspaper texts at the same time became simpler.
+ 
+Full text of the memo in PDF format http://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf
+
 ## License
 Russian law excludes texts of legal acts from copyright protection so they can be redistributed freely. Official publication metadata are subject to terms at the source site (both commercial and non-commercial use allowed providing attribution to the source at http://publication.pravo.gov.ru/od/).
 
