@@ -1,3 +1,6 @@
+## December, 15, 2018
+We have published a corpus of the most complicated sentences in Russian law texts. It was made by segmentation of texts into sentences, then we choose some of them by metrics. 
+
 ## December, 05, 2018
 We added documents adopted by the end of year 2017. All zipfiles were reloaded to the download source because of minor changes to some of the documents. You need to reload all zipfiles. Links and md5sums updated accordingly. 
 
