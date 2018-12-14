@@ -1,0 +1,3 @@
+A corpus of the most complicated sentences along with their metadata in csv format: 
+https://s3.eu-central-1.amazonaws.com/ruslawod/most_complicated_sentences.zip
+Fields description is in the archive.
