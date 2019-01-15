@@ -4,13 +4,13 @@
 `Version 0.5`
 
 ## State of affairs
-Russian legislation is published in official paper journals. Since 1990 legal normative acts cannot enter into force without official publication. Some effort to make electronic databases of legal acts was made in the 1980s.  In the early 1990s commercial information companies created proprietary databases of legislation and court decisions. Starting from 2011 legal acts are supposed to be officially published at the Official Internet portal of legal information (http://pravo.gov.ru). Now it includes both federal, regional, and municipal legislation, but the information is not complete. However, such documents are only in graphical format (scanned TIFF or PDF without a text layer). Only a small share of data are published in structured fashion in well-defined XML format.
+Russian legislation is published in official paper journals. Since 1990 legal normative acts cannot enter into force without official publication. Some effort to make electronic databases of legal acts was made in the 1980s.  In the early 1990s commercial information companies created proprietary databases of legislation and court decisions. Starting from 2011 legal acts are supposed to be officially published at the Official Internet portal of legal information ([pravo.gov.ru](http://pravo.gov.ru)). Now it includes both federal, regional, and municipal legislation, but the information is not complete. However, such documents are only in graphical format (scanned TIFF or PDF without a text layer). Only a small share of data are published in structured fashion in well-defined XML format.
 
 ## This corpus
 This corpus (as of version `0.5`) includes 458,884 XML files representing laws of Russian Federation, decrees by the President of RF, regulations by the government and acts of subjects of the country as well as some municipal regulations published as of December, 2017. XML files feature legal metadata extracted from various sources and the respective texts.
 
-To the moment we combine texts and metadata from two major sources (both from http://pravo.gov.ru): Official electronic publication of graphical scans of documents and IPS Zakonodatelstvo. The latter is a plaintext representation of official journals wherein the legislation was published.
- We relied on Tesseract OCR (https://github.com/tesseract-ocr/tesseract) to obtain texts from scanned images. Some texts consist of more than 500 pages (actually, we have some texts more than 15000 pages) representing only financial, geographical information in tables of digits or such. We decided to cut OCR of such texts on page 500. See more in Limitations. 
+To the moment we combine texts and metadata from two major sources (both from [pravo.gov.ru](http://pravo.gov.ru)): Official electronic publication of graphical scans of documents and IPS Zakonodatelstvo. The latter is a plaintext representation of official journals wherein the legislation was published.
+ We relied on [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to obtain texts from scanned images. Some texts consist of more than 500 pages (actually, we have some texts more than 15000 pages) representing only financial, geographical information in tables of digits or such. We decided to cut OCR of such texts on page 500. See more in Limitations. 
 
 ## Importance of schema development
 Data should be supplied in a format that is convenient and compatible. We rely on Akoma Ntoso (http://www.akomantoso.org/). However, so far our corpus is not entirely compatible with it: we do not mark-up the internal document structure yet.
@@ -71,7 +71,7 @@ We have published a policy memo “The Complexity of Legal Acts in Russia. Lexic
 
 Using the methods of computational linguistics we have analyzed the dynamics of changes in the lexical and syntactic quality of texts of legal acts. It was concluded that in Russia there is a deterioration in the quality of texts of federal and regional legal acts for perception - a drop in lexical diversity, a complication in the structure of sentences. In recent years, this trend has intensified. It is noted that the most complex constructions of sentences are found in the texts of the Constitutional Court of the Russian Federation, as well as the authorities associated with the financial and budgetary sphere of regulation. We compared it to a dynamics of a newspaper corpus metrics and concluded that the newspaper texts at the same time became simpler.
  
-Full text of the memo in PDF format is available here: http://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf
+Full text of the memo in PDF format is available [here](http://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf)
 
 ## License
 Russian law excludes texts of legal acts from copyright protection so they can be redistributed freely. Official publication metadata are subject to terms at the source site (both commercial and non-commercial use allowed providing attribution to the source at http://publication.pravo.gov.ru/od/).
@@ -79,4 +79,4 @@ Russian law excludes texts of legal acts from copyright protection so they can b
 Other materials of the project distributed under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
 ## Contact
-Denis Savelev ([@denissaveliev](https://github.com/denissaveliev)) at the Institute for the Rule of Law (IRL) at the European University at Saint-Petersburg (EUSPb) (http://enforce.spb.ru/about-us/team/6922-savelev-denis-aleksandrovich)
+[Denis Savelev](http://enforce.spb.ru/about-us/team/6922-savelev-denis-aleksandrovich) ([@denissaveliev](https://github.com/denissaveliev)) at the Institute for the Rule of Law (IRL) at the European University at Saint-Petersburg (EUSPb) 
