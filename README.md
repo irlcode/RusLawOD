@@ -60,7 +60,7 @@ XML structure is reported in the below example with comments.All fields are not 
 ```
 
 ## Limitations
-This corpus does not represent the entirety of the legal acts but rather it represents the universe of documents published electronically in official sources. OCRed texts are not manually adjusted so that they do contain errors if the underlying image is of low quality. Because we have texts exceeding 1000 pages in length we report only the texts up to its 500th page. Some of the texts cut by page 25 (mostly which contain only tables of digits) Metadata is gathered from official sources and can reflect the errors therein.
+This corpus does not represent the entirety of the legal acts but rather it represents the universe of documents published electronically in official sources. OCRed texts are not manually adjusted so that they do contain errors if the underlying image is of low quality. Because we have texts exceeding 1000 pages in length we report only the texts up to its 500th page. Some  texts are limited to 25 pages (those that contain numeric tables). Metadata is gathered from official sources and can reflect the errors therein.
 
 There is no uniform identification number of a legal act in Russia, so we use the official publication number instead. Since not every act features this number, there might be duplicates.
 
@@ -69,9 +69,9 @@ Only first versions of acts (as were initially signed by relevant body) are take
 ## Applications
 We have published a policy memo “The Complexity of Legal Acts in Russia. Lexical and Syntactic Quality of Texts" (In Russian)
 
-Using the methods of computational linguistics we have analyzed the dynamics of changes in the lexical and syntactic quality of texts of legal acts. It was concluded that in Russia there is a deterioration in the quality of texts of federal and regional legal acts for perception - a drop in lexical diversity, a complication in the structure of sentences. In recent years, this trend has intensified. It is noted that the most complex constructions of sentences are found in the texts of the Constitutional Court of the Russian Federation, as well as the authorities associated with the financial and budgetary sphere of regulation. We compared it to a dynamics of a newspaper corpus metrics and conclude that the newspaper texts at the same time became simpler.
+Using the methods of computational linguistics we have analyzed the dynamics of changes in the lexical and syntactic quality of texts of legal acts. It was concluded that in Russia there is a deterioration in the quality of texts of federal and regional legal acts for perception - a drop in lexical diversity, a complication in the structure of sentences. In recent years, this trend has intensified. It is noted that the most complex constructions of sentences are found in the texts of the Constitutional Court of the Russian Federation, as well as the authorities associated with the financial and budgetary sphere of regulation. We compared it to a dynamics of a newspaper corpus metrics and concluded that the newspaper texts at the same time became simpler.
  
-Full text of the memo in PDF format http://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf
+Full text of the memo in PDF format is available here: http://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf
 
 ## License
 Russian law excludes texts of legal acts from copyright protection so they can be redistributed freely. Official publication metadata are subject to terms at the source site (both commercial and non-commercial use allowed providing attribution to the source at http://publication.pravo.gov.ru/od/).
