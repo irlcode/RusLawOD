@@ -13,7 +13,7 @@ To the moment we combine texts and metadata from two major sources (both from [p
  We relied on [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to obtain texts from scanned images. Some texts consist of more than 500 pages (actually, we have some texts more than 15000 pages) representing only financial, geographical information in tables of digits or such. We decided to cut OCR of such texts on page 500. See more in Limitations. 
 
 ## Importance of schema development
-Data should be supplied in a format that is convenient and compatible. We rely on Akoma Ntoso (http://www.akomantoso.org/). However, so far our corpus is not entirely compatible with it: we do not mark-up the internal document structure yet.
+Data should be supplied in a format that is convenient and compatible. We rely on [Akoma Ntoso](http://www.akomantoso.org/). However, so far our corpus is not entirely compatible with it: we do not mark-up the internal document structure yet.
 
 ## XML structure
 XML structure is reported in the below example with comments.All fields are not mandatory and are present in a document only if the information exists.
@@ -74,7 +74,7 @@ Using the methods of computational linguistics we have analyzed the dynamics of 
 Full text of the memo in PDF format is available [here](http://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf)
 
 ## License
-Russian law excludes texts of legal acts from copyright protection so they can be redistributed freely. Official publication metadata are subject to terms at the source site (both commercial and non-commercial use allowed providing attribution to the source at http://publication.pravo.gov.ru/od/).
+Russian law excludes texts of legal acts from copyright protection so they can be redistributed freely. Official publication metadata are subject to terms at the [source site](http://publication.pravo.gov.ru/od/) (both commercial and non-commercial use allowed providing attribution to the source).
 
 Other materials of the project distributed under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
