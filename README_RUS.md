@@ -81,5 +81,8 @@
 
 Остальные материалы доступны на условиях лицензии Creative Commons Attribution-NonCommercial 4.0 International license.
 
+## Информация о поддержке
+Корпус опубликован в рамках научного проекта No 17-18-01618, поддержанного Российским научным фондом.
+
 ## Контакты
 [Денис Савельев](http://enforce.spb.ru/about-us/team/6922-savelev-denis-aleksandrovich)([@denissaveliev](https://github.com/denissaveliev)) научный сотрудник Института проблем правоприменения при Европейском университете в Санкт-Петербурге 
