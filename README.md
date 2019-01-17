@@ -78,5 +78,9 @@ Russian law excludes texts of legal acts from copyright protection so they can b
 
 Other materials of the project distributed under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
+## Acknowledgements
+
+The corpus is published as a part of scientific project No 17-18-01618 funded by Russian Science Foundation.
+
 ## Contact
-[Denis Savelev](http://enforce.spb.ru/about-us/team/6922-savelev-denis-aleksandrovich) ([@denissaveliev](https://github.com/denissaveliev)) at the Institute for the Rule of Law (IRL) at the European University at Saint-Petersburg (EUSPb) 
+[Denis Savelev](http://enforce.spb.ru/about-us/team/6922-savelev-denis-aleksandrovich) ([@denissaveliev](https://github.com/denissaveliev)) at the Institute for the Rule of Law (IRL) at the European University at Saint Petersburg (EUSPb) 
