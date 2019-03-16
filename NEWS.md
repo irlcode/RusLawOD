@@ -1,3 +1,6 @@
+## March, 17, 2019
+We had updated the corpus of the most complicated sentences because we fixed a bug causing corruption in some of the sentences. Note that every number more than three digits long is replaced to "999" by technical reasons.
+
 ## December, 15, 2018
 We have published a corpus of the most complicated sentences in Russian law texts. It was made by segmentation of texts into sentences, then we choose some of them by metrics. It is in CSV Unicode. See file most_complicated_sentences.zip
 
