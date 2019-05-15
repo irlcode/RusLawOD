@@ -33,7 +33,7 @@ XML structure is reported in the below example with comments.All fields are not 
       <authorByOP val="body that issued the act according to the Official publication website" /> 
       <docDateByOP val="00.00.0000" /> <!-- document adoption data by official publication site date format dd.mm.yyyy-->
       <docNumberByOP val="000" /> <!-- document number at signature-->
-      <docTitleByOP> title of the document according to official publication site </docTitleByOp> 
+      <docTitleByOP> title of the document according to official publication site </docTitleByOP> 
     </identification>
     <references>
       <classifierByIPS val="000.000.000.000.000" /> <!-- classification code according to the IPS Zakonodatelstvo -->
