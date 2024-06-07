@@ -1,16 +1,21 @@
 # `RusLawOD`: Russian Law Open Data
 ‘RusLawOD’ is a corpus of texts of Russian Federation legal acts and their metadata.
 
-`Version 0.5`
+`Version 2`
+
+## Scientific references
+
+If you mention or use this corpus in your scientific work, please refer to:
+Saveliev, Denis and Ruslan Kuchakov. “The Russian Legislative Corpus. Russian Law Open Data.” arXiv preprint arXiv:5651239 (2024).
+See more works of authors below.
 
 ## State of affairs
 Russian legislation is published in official paper journals. Since 1990 legal normative acts cannot enter into force without official publication. Some effort to make electronic databases of legal acts was made in the 1980s.  In the early 1990s commercial information companies created proprietary databases of legislation and court decisions. Starting from 2011 legal acts are supposed to be officially published at the Official Internet portal of legal information ([pravo.gov.ru](http://pravo.gov.ru)). Now it includes both federal, regional, and municipal legislation, but the information is not complete. However, such documents are only in graphical format (scanned TIFF or PDF without a text layer). Only a small share of data are published in structured fashion in well-defined XML format.
 
 ## This corpus
-This corpus (as of version `0.5`) includes 458,884 XML files representing laws of Russian Federation, decrees by the President of RF, regulations by the government and acts of subjects of the country as well as some municipal regulations published as of December, 2017. XML files feature legal metadata extracted from various sources and the respective texts.
+This corpus (as of version `2`) includes 280k XML files representing laws of Russian Federation, decrees by the President of RF, regulations by the government published as of December, 31, 2023. XML files feature legal metadata extracted from various sources and the respective texts.
 
-To the moment we combine texts and metadata from two major sources (both from [pravo.gov.ru](http://pravo.gov.ru)): Official electronic publication of graphical scans of documents and IPS Zakonodatelstvo. The latter is a plaintext representation of official journals wherein the legislation was published.
- We relied on [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to obtain texts from scanned images. Some texts consist of more than 500 pages (actually, we have some texts more than 15000 pages) representing only financial, geographical information in tables of digits or such. We decided to cut OCR of such texts on page 500. See more in Limitations. 
+To the moment we present texts and metadata from [pravo.gov.ru](http://pravo.gov.ru)): IPS Zakonodatelstvo. This dabase is state-owned, though not considered to be official publication: it is a plaintext representation of official journals wherein the legislation was published. 
 
 ## Importance of schema development
 Data should be supplied in a format that is convenient and compatible. We rely on [Akoma Ntoso](http://www.akomantoso.org/). However, so far our corpus is not entirely compatible with it: we do not mark-up the internal document structure yet.
