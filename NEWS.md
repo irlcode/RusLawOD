@@ -1,3 +1,6 @@
+## June, 7, 2024
+We had major update and recompiled the corpus. First, its data was updated with the documents issued to the end of 2023. Then, sone new variables added. Then, we prowided CONLL-U format morphosyntactic tagging.
+
 ## March, 17, 2019
 We had updated the corpus of the most complicated sentences because we fixed a bug causing corruption in some of the sentences. Note that every number more than three digits long is replaced to "999" by technical reasons.
 
