@@ -1,13 +1,11 @@
 # `RusLawOD`: Russian Law Open Data
-‘RusLawOD’ is a corpus of texts of Russian Federation legal acts and their metadata.
+‘RusLawOD’ is a corpus of texts of Russian Federation legal acts and their metadata covering 1991 to 2023. The corpus collects all 281,413 texts (176,523,268 tokens) of laws, non-secret federal regulations and acts, along with their metadata.
 
 `Version 2`
 
 ## Scientific references
 
-If you mention or use this corpus in your scientific work, please refer to:
-Saveliev, Denis and Ruslan Kuchakov. “The Russian Legislative Corpus. Russian Law Open Data.” arXiv preprint arXiv:5651239 (2024).
-See more works of authors below.
+If you use this corpus in your scientific work, please refer to: The Russian Legislative Corpus. Russian Law Open Data. arXiv preprint [arXiv:2406.04855](https://arxiv.org/abs/2406.04855) (2024). See more works of authors below.
 
 ## State of affairs
 Russian legislation is published in official paper journals. Since 1990 legal normative acts cannot enter into force without official publication. Some effort to make electronic databases of legal acts was made in the 1980s.  In the early 1990s commercial information companies created proprietary databases of legislation and court decisions. Starting from 2011 legal acts are supposed to be officially published at the Official Internet portal of legal information ([pravo.gov.ru](http://pravo.gov.ru)). Now it includes both federal, regional, and municipal legislation, but the information is not complete. However, such documents are only in graphical format (scanned TIFF or PDF without a text layer). Only a small share of data are published in structured fashion in well-defined XML format.
