@@ -11,15 +11,15 @@ If you use this corpus in your scientific work, please refer to: The Russian Leg
 Russian legislation is published in official paper journals. Since 1990 legal normative acts cannot enter into force without official publication. Some effort to make electronic databases of legal acts was made in the 1980s.  In the early 1990s commercial information companies created proprietary databases of legislation and court decisions. Starting from 2011 legal acts are supposed to be officially published at the Official Internet portal of legal information ([pravo.gov.ru](http://pravo.gov.ru)). Now it includes both federal, regional, and municipal legislation, but the information is not complete. However, such documents are only in graphical format (scanned TIFF or PDF without a text layer). Only a small share of data are published in structured fashion in well-defined XML format.
 
 ## This corpus
-This corpus (as of version `2`) includes 280k XML files representing laws of Russian Federation, decrees by the President of RF, regulations by the government published as of December, 31, 2023. XML files feature legal metadata extracted from various sources and the respective texts.
+This corpus (as of version `2`) includes XML files representing laws of Russian Federation, decrees by the President of RF, regulations by the government published as of December, 31, 2023. XML files feature legal metadata extracted from various sources and the respective texts.
 
-To the moment we present texts and metadata from [pravo.gov.ru](http://pravo.gov.ru)): IPS Zakonodatelstvo. This dabase is state-owned, though not considered to be official publication: it is a plaintext representation of official journals wherein the legislation was published. 
+The source of texts and metadata is the Information legal system "The legislation of Russian Federation" (IPS Zakonodatelstvo RF) [pravo.gov.ru](http://pravo.gov.ru)). This dabase is state-owned, though not considered to be official publication: it is a plaintext representation of official journals wherein the legislation was published. 
 
-## Importance of schema development
+## Schema development
 Data should be supplied in a format that is convenient and compatible. We rely on [Akoma Ntoso](http://www.akomantoso.org/). However, so far our corpus is not entirely compatible with it: we do not mark-up the internal document structure yet.
 
 ## XML structure
-XML structure is reported in the below example with comments.All fields are not mandatory and are present in a document only if the information exists.
+XML structure is reported in the below example with comments. All fields are not mandatory and are present in a document only if the information exists.
 
 ```xml
 <act> <!-- Legal act as the type of a document -->
@@ -32,11 +32,13 @@ XML structure is reported in the below example with comments.All fields are not 
       Zakonodatelstvo, date format is dd.mm.yyyy-->
       <docNumberIPS val="000" /> <!-- document number at signature according to the IPS Zakonodatelstvo -->
       <headingIPS>title of the document in the IPS Zakonodatelstvo.</headingIPS> 
-      <docTypeByOP val="document type according to the Official publication website" /> 
-      <authorByOP val="body that issued the act according to the Official publication website" /> 
-      <docDateByOP val="00.00.0000" /> <!-- document adoption data by official publication site date format dd.mm.yyyy-->
-      <docNumberByOP val="000" /> <!-- document number at signature-->
-      <docTitleByOP> title of the document according to official publication site </docTitleByOP> 
+      <doc_typeIPS val="Document type as was in the source"/>
+      <doc_author_normal_formIPS val="State organ that adopted the act, in normal language form"/>
+      <signedIPS val="______"/> <!-- Person name who signed this legal act as provided in the source -->
+      <statusIPS val="Утратил силу"/> <!-- In force, Not in force, In force with amendments: Acting status at the date of scrapping and as it was provided by the source -->
+      <actual_datetimeIPS val="1710792705.7460072"/> <!-- Date and time when this data was scrapped from the original website -->
+      <actual_datetime_humanIPS val="Mon Mar 18 23:11:45 2024"/> <!-- Date and time when this data was scrapped from the original website, in human readable format -->
+      <is_widely_used val="1"/></identification> <!-- 1 if yes, 0 if no: is the document normative and in wide use (see article preprint for the details) -->
     </identification>
     <references>
       <classifierByIPS val="000.000.000.000.000" /> <!-- classification code according to the IPS Zakonodatelstvo -->
@@ -44,37 +46,36 @@ XML structure is reported in the below example with comments.All fields are not 
     <keywords>
       <keywordByIPS val="KEYWORD" /> 
     </keywords>
-    <publication>
-      <pravogovruOfficial opdate="00.00.0000" opnumber="0000000000000000" opweekcode="0000000000000" /> 
-      <!-- official publication number and official publication week code date format dd.mm.yyyy-->
-    </publication>
   </meta>
   <body>
     <textIPS><-- Text parsed from the IPS Zakonodatelstvo --> 
     <!-- It can include hyperlinks to other acts, mostly amendments,
     like this: --> text <ref>linked text</ref> text 
     </textIPS>
-    <textOCR> <-- Text from OCR of official publication scan -->
-    </textOCR> 
-    <textOCR truncated="yes"> <-- Text from OCR if it was truncated while OCR -->
-    </textOCR> 
+    <taggedTextIPS> <-- CONLL_U morphosyntactic tagged text, cleaned -->
+    </taggedTextIPS> 
   </body>
 </act>
 ```
 
 ## Limitations
-This corpus does not represent the entirety of the legal acts but rather it represents the universe of documents published electronically in official sources. OCRed texts are not manually adjusted so that they do contain errors if the underlying image is of low quality. Because we have texts exceeding 1000 pages in length we report only the texts up to its 500th page. Some  texts are limited to 25 pages (those that contain numeric tables). Metadata is gathered from official sources and can reflect the errors therein.
+This corpus does not represent the entirety of the legal acts but rather it represents the universe of documents published electronically in the source.
 
-There is no uniform identification number of a legal act in Russia, so we use the official publication number instead. Since not every act features this number, there might be duplicates.
+There is no uniform identification number of a legal act in Russia, the identification might be by three attributes combined: the official document number, the date of signature and the state organ that adopted the document. Pravo.gov.ru ND is an internal database ID it is not official and may change.
 
 Only first versions of acts (as were initially signed by relevant body) are taken. The corpus does not include consolidated (with further amendments) texts actual to the present date. It could only happen if the initial publications (pre-1990) already included amendments.
 
 ## Applications
-We have published a policy memo “The Complexity of Legal Acts in Russia. Lexical and Syntactic Quality of Texts" (In Russian)
+Several scientific works published using thos corpus.
 
-Using the methods of computational linguistics we have analyzed the dynamics of changes in the lexical and syntactic quality of texts of legal acts. It was concluded that in Russia there is a deterioration in the quality of texts of federal and regional legal acts for perception - a drop in lexical diversity, a complication in the structure of sentences. In recent years, this trend has intensified. It is noted that the most complex constructions of sentences are found in the texts of the Constitutional Court of the Russian Federation, as well as the authorities associated with the financial and budgetary sphere of regulation. We compared it to a dynamics of a newspaper corpus metrics and concluded that the newspaper texts at the same time became simpler.
- 
-Full text of the memo in PDF format is available [here](http://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf).
+Saveliev, D. (2018). On creating and using text of the Russian Federation corpus of legal acts acts as open dataset. Pravo. Zhurnal Vysshey shkoly ekonomiki (1), 26–44. DOI: 10.17323/2072-8166.2018.1.26.44 (in Russian). [link](https://law-journal.hse.ru/article/view/20373)
+
+Kuchakov, R. and D. Saveliev (2018). The complexity of the Russian legislation from the lexical and syntactic
+perspective (Slozhnost’ pravovyh aktov v Rossii: leksicheskoe i sintaksicheskoe kachestvo tekstov). Analytic report,
+IRL European University. [link](https://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_
+web.pdf) (in Russian).
+
+Saveliev, D. (2020). Study of the complexity of sentences that make up the texts of legal acts of the authorities of the Russian Federation. Pravo. Zhurnal Vysshey shkoly ekonomiki (1), 50-74. DOI: 10.17323/2072-8166.2020.1.50.74 (in Russian).[link](https://law-journal.hse.ru/article/view/20098)
 
 ## License
 Russian law excludes texts of legal acts from copyright protection so they can be redistributed freely. Official publication metadata are subject to terms at the [source site](http://publication.pravo.gov.ru/od/) (both commercial and non-commercial use allowed providing attribution to the source).
