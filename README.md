@@ -5,7 +5,7 @@
 
 ## Scientific references
 
-If you use this corpus in your scientific work, please refer to: Saveliev D., Kuchakov R. The Russian Legislative Corpus //arXiv preprint [arXiv:2406.04855](https://arxiv.org/abs/2406.04855) arXiv:2406.04855. – 2024. See more works of authors below.
+If you use this corpus in your scientific work, please refer to: Saveliev D., Kuchakov R. The Russian Legislative Corpus //arXiv preprint [arXiv:2406.04855](https://arxiv.org/abs/2406.04855). – 2024. See more works of authors below.
 
 ## State of affairs
 Russian legislation were published in official paper journals since 1990. Since 1990 legal normative acts cannot enter into force without official publication. Some effort to make electronic databases of legal acts was made in the 1980s.  In the early 1990s commercial information companies created proprietary databases of legislation and court decisions. Starting from 2011 legal acts are supposed to be officially published at the Official Internet portal of legal information ([pravo.gov.ru](http://pravo.gov.ru)). Now it includes both federal, regional, and municipal legislation, but the information is not complete. However, such documents are only in graphical format (scanned TIFF or PDF without a text layer). We use the most convenient source that my be considered as the most authoritative as we can get: "IPS Zakonodatelstvo RF" (Information Legal System "The legislation of Russian Federation" that is a part of pravo.gov.ru portal, but is not considered as official publication (i.e. the date of the publication in this source may not be considered as the date of official publication and the text is not as equal in legal status as a text with signature).
