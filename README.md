@@ -72,8 +72,7 @@ Saveliev, D. (2018). On creating and using text of the Russian Federation corpus
 
 Kuchakov, R. and D. Saveliev (2018). The complexity of the Russian legislation from the lexical and syntactic
 perspective (Slozhnost’ pravovyh aktov v Rossii: leksicheskoe i sintaksicheskoe kachestvo tekstov). Analytic report,
-IRL European University. [link](https://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_
-web.pdf) (in Russian).
+IRL European University. [link](https://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf) (in Russian).
 
 Saveliev, D. (2020). Study of the complexity of sentences that make up the texts of legal acts of the authorities of the Russian Federation. Pravo. Zhurnal Vysshey shkoly ekonomiki (1), 50-74. DOI: 10.17323/2072-8166.2020.1.50.74 (in Russian).[link](https://law-journal.hse.ru/article/view/20098)
 
