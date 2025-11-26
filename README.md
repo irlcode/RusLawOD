@@ -77,7 +77,7 @@ web.pdf) (in Russian).
 
 Saveliev, D. (2020). Study of the complexity of sentences that make up the texts of legal acts of the authorities of the Russian Federation. Pravo. Zhurnal Vysshey shkoly ekonomiki (1), 50-74. DOI: 10.17323/2072-8166.2020.1.50.74 (in Russian).[link](https://law-journal.hse.ru/article/view/20098)
 
-Kuchakov, R. K., & Saveliev, D. (2025). The complexity of the Russian legislation from the lexical and syntactic perspective, 1991–2023. [Vestnik of Saint Petersburg University. Law, 16(3), 796–823.]( https://lawjournal.spbu.ru/article/view/18768)
+Kuchakov, R. K., & Saveliev, D. (2025). The complexity of the Russian legislation from the lexical and syntactic perspective, 1991–2023. (in Russian) [Vestnik of Saint Petersburg University. Law, 16(3), 796–823.]( https://lawjournal.spbu.ru/article/view/18768)
 
 
 ## License
