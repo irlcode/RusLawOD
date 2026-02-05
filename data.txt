@@ -1,10 +1,8 @@
 https://storage.yandexcloud.net/rulawtexts/corpus_xml_lite.zip
 https://storage.yandexcloud.net/rulawtexts/corpus_xml_lite.z01
 https://storage.yandexcloud.net/rulawtexts/corpus_xml_lite.z02
-
+https://storage.yandexcloud.net/rulawtexts/corpus_xml_lite.z03
 https://storage.yandexcloud.net/rulawtexts/corpus_xml_full.zip
 https://storage.yandexcloud.net/rulawtexts/corpus_xml_full.z01
 https://storage.yandexcloud.net/rulawtexts/corpus_xml_full.z02
 https://storage.yandexcloud.net/rulawtexts/corpus_xml_full.z03
-
-https://storage.yandexcloud.net/rulawtexts/md5sum.txt
