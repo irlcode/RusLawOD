@@ -1,3 +1,6 @@
+## February, 5, 2026
+We had updated data to December, 31, 2025 downloading files from the source in the end of January, 2026. The XML structure, the POS tagging engine remains just the same, thus updated data is compatible with previous release to ascertain continuity in research.
+
 ## June, 7, 2024
 We had major update and recompiled the corpus. First, its data was updated with the documents issued to the end of 2023. Then, sone new variables added. Then, we prowided CONLL-U format morphosyntactic tagging.
 
