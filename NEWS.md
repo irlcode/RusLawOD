@@ -1,3 +1,6 @@
+## April, 28, 2026
+Bugfix update: several values related to document type for years 2024 and 2025 were corrected, no change in readability values
+
 ## February, 5, 2026
 We had updated data to December, 31, 2025 downloading files from the source in the end of January, 2026. The XML structure, the POS tagging engine remains just the same, thus updated data is compatible with previous release to ascertain continuity in research.
 
