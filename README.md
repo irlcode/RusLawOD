@@ -82,14 +82,16 @@ Only first versions of acts (as were initially signed by relevant body) are take
 
 ## Applications
 
-Saveliev (2018). On creating and using text of the Russian Federation corpus of legal acts acts as open dataset. Pravo. Zhurnal Vysshey shkoly ekonomiki, 1, 26–44. [10.17323/2072-8166.2018.1.26.44](https://law-journal.hse.ru/article/view/20373).
+- Saveliev (2018). On creating and using text of the Russian Federation corpus of legal acts acts as open dataset. Pravo. Zhurnal Vysshey shkoly ekonomiki, 1, 26–44. [10.17323/2072-8166.2018.1.26.44](https://law-journal.hse.ru/article/view/20373)
 
-Kuchakov, Saveliev (2018). The complexity of the Russian legislation from the lexical and syntactic
+- Kuchakov, Saveliev (2018). The complexity of the Russian legislation from the lexical and syntactic
 perspective (Slozhnost’ pravovyh aktov v Rossii: leksicheskoe i sintaksicheskoe kachestvo tekstov). IRL European University. [https://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf](https://enforce.spb.ru/images/analit_zapiski/memo_readability_2018_web.pdf) 
 
-Saveliev (2020). Study of the complexity of sentences that make up the texts of legal acts of the authorities of the Russian Federation. Pravo. Zhurnal Vysshey shkoly ekonomiki, 1, 50-74. [10.17323/2072-8166.2020.1.50.74](https://law-journal.hse.ru/article/view/20098)
+- Saveliev (2020). Study of the complexity of sentences that make up the texts of legal acts of the authorities of the Russian Federation. Pravo. Zhurnal Vysshey shkoly ekonomiki, 1, 50-74. [10.17323/2072-8166.2020.1.50.74](https://law-journal.hse.ru/article/view/20098)
 
-Kuchakov, Saveliev (2025). The complexity of the Russian legislation from the lexical and syntactic perspective, 1991–2023. Vestnik of Saint Petersburg University. Law, 16(3), 796–823. [10.21638/spbu14.2025.313](https://lawjournal.spbu.ru/article/view/18768)
+- Kuchakov, Saveliev (2025). The complexity of the Russian legislation from the lexical and syntactic perspective, 1991–2023. Vestnik of Saint Petersburg University. Law, 16(3), 796–823. [10.21638/spbu14.2025.313](https://lawjournal.spbu.ru/article/view/18768)
+
+- Савельев (2026). «Кто ясно мыслит, тот ясно излагает», или Зачем в законодательстве Российской Федерации словосочетание «Российская Федерация» упоминается 5 миллионов раз. Закон, 4. https://zakon.ru/publication/igzakon/11650
 
 #### Readability Trends in Legal Acts: 1991–2023. Type-Token Ratio (TTR)
 
