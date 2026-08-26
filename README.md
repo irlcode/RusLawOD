@@ -132,9 +132,8 @@ Saveliev, Kuchakov (2024) The Russian Legislative Corpus. [arXiv:2406.04855](htt
 
 ## Media Coverage
 
-- <a href="https://www.youtube.com/watch?v=SP18pPQci64" target="_blank"><img src="figures/youtube.png" alt="youtube" /></a> Публичная лекция, Youtube, «Открытый корпус текстов российского законодательства» (Март, 2018): https://www.youtube.com/watch?v=SP18pPQci64
-- <a href="https://www.youtube.com/watch?v=gL5eUu8KUr4" target="_blank"><img src="figures/youtube.png" alt="youtube" /></a> Публичная лекция, Youtube, «Язык права — как родной или как иностранный?» (Март, 2019): https://www.youtube.com/watch?v=gL5eUu8KUr4
-
+- <a href="https://www.youtube.com/watch?v=SP18pPQci64" target="_blank"><img src="figures/youtube.png" alt="youtube" /></a> Публичная лекция, «Открытый корпус текстов российского законодательства» (Март, 2018): https://www.youtube.com/watch?v=SP18pPQci64
+- <a href="https://www.youtube.com/watch?v=gL5eUu8KUr4" target="_blank"><img src="figures/youtube.png" alt="youtube" /></a> Публичная лекция, «Язык права — как родной или как иностранный?» (Март, 2019): https://www.youtube.com/watch?v=gL5eUu8KUr4
 - <a href="https://www.vedomosti.ru/opinion/articles/2017/11/23/742777-zachem-na-29000-stranits" target="_blank"><img src="figures/vedomosti.jpg" alt="vedomosti" /></a> Ведомости, «Зачем нужны законы на 29000 страниц» (Ноябрь, 2017): https://www.vedomosti.ru/opinion/articles/2017/11/23/742777-zachem-na-29000-stranits
 - <a href="https://www.vedomosti.ru/opinion/articles/2018/12/12/789168-sud-otlichaetsya-ot-tolstogo" target="_blank"><img src="figures/vedomosti.jpg" alt="vedomosti" /></a> Ведомости, «Чем Конституционный суд отличается от Льва Толстого» (Декабрь, 2018): https://www.vedomosti.ru/opinion/articles/2018/12/12/789168-sud-otlichaetsya-ot-tolstogo
 - <a href="https://www.advgazeta.ru/novosti/uchenye-ukazali-na-tendentsiyu-ukhudsheniya-kachestva-zakonov/" target="_blank"><img src="figures/ag.jpeg" alt="ag" /></a> Адвокатская газета, «Ученые указали на тенденцию ухудшения качества законов» (Декабрь, 2018): https://www.advgazeta.ru/novosti/uchenye-ukazali-na-tendentsiyu-ukhudsheniya-kachestva-zakonov/
