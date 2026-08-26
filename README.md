@@ -138,7 +138,7 @@ Saveliev, Kuchakov (2024) The Russian Legislative Corpus. [arXiv:2406.04855](htt
 - <a href="https://www.vedomosti.ru/opinion/articles/2019/05/30/802835-yazik-sovetskogo-zakona" target="_blank"><img src="figures/vedomosti.jpg" alt="vedomosti" /></a> Ведомости, «Подходит ли язык советского закона для закона 2019 года» (Май, 2019): https://www.vedomosti.ru/opinion/articles/2019/05/30/802835-yazik-sovetskogo-zakona
 - <a href="https://www.vedomosti.ru/opinion/articles/2020/05/27/831308-konstitutsionnoe-dlinnoti" target="_blank"><img src="figures/vedomosti.jpg" alt="vedomosti" /></a> Ведомости, «Конституционное многословие и длинноты» (Май, 2020): https://www.vedomosti.ru/opinion/articles/2020/05/27/831308-konstitutsionnoe-dlinnoti
 - <a href="https://zakon.ru/blog/2021/11/16/bolezn_zlovrednoj_regulyatoriki" target="_blank"><img src="figures/zakon.jpg" alt="zakon" /></a> Закон.ру, «Болезнь зловредной регуляторики» (Ноябрь, 2021): https://zakon.ru/blog/2021/11/16/bolezn_zlovrednoj_regulyatoriki
-- <a href="https://www.youtube.com/watch?v=gL5eUu8KUr4" target="_blank"><img src="figures/youtube.jpg" alt="zakon" /></a> Публичная лекция, Youtube, «Язык права — как родной или как иностранный?» (Март, 2019): https://www.youtube.com/watch?v=gL5eUu8KUr4
+- <a href="https://www.youtube.com/watch?v=gL5eUu8KUr4" target="_blank"><img src="figures/youtube.png" alt="zakon" /></a> Публичная лекция, Youtube, «Язык права — как родной или как иностранный?» (Март, 2019): https://www.youtube.com/watch?v=gL5eUu8KUr4
 
 ## Acknowledgements
 
