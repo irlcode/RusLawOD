@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "The Russian Legislative Corpus"
+authors:
+  - family-names: "Saveliev"
+    given-names: "Denis"
+  - family-names: "Kuchakov"
+    given-names: "Ruslan"
+year: 2024
+identifiers:
+  - type: other
+    value: "arXiv:2406.04855"
+    description: "arXiv preprint"
+url: "https://arxiv.org/abs/2406.04855"
+preferred-citation:
+  type: article
+  title: "The Russian Legislative Corpus"
+  authors:
+    - family-names: "Saveliev"
+      given-names: "Denis"
+    - family-names: "Kuchakov"
+      given-names: "Ruslan"
+  year: 2024
+  journal: "arXiv preprint arXiv:2406.04855"
+  identifiers:
+    - type: other
+      value: "arXiv:2406.04855"
+      description: "arXiv preprint"
