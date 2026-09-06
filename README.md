@@ -1,9 +1,9 @@
 # `RusLawOD`: Russian Law Open Data
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-_oItsMineZ)](https://huggingface.co/datasets/irlspbru/RusLawOD) &nbsp;&nbsp;&nbsp; [![arXiv](https://img.shields.io/badge/arXiv-2406.04855-b31b1b.svg)](https://arxiv.org/abs/2406.04855) &nbsp;&nbsp;&nbsp; [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp; ![R](https://img.shields.io/badge/R-4.0+-blue) &nbsp;&nbsp;&nbsp; ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 
-‘RusLawOD’ is a corpus of texts of Russian Federation legal acts and their metadata covering 1991 to 2025. The corpus collects all 304,382 texts (194,425,905 tokens) of laws, non-secret federal regulations and acts, along with their metadata.
+‘RusLawOD’ is a corpus of texts of Russian Federation legal acts and their metadata covering 1991 to Aug, 2026. The corpus collects all 308,056 texts (198,777,737 tokens) of laws, non-secret federal regulations and acts, along with their metadata.
 
-`Version 3`
+`Version 3.1`
 
 ## Scientific references
 
@@ -15,7 +15,7 @@ Russian legislation were published in official paper journals since 1990. Since 
 
 ## This corpus
 
-This corpus (as of version `3`) includes XML files representing laws of Russian Federation, decrees by the President of RF, regulations by the government published as of December, 31, 2025, last updated from the state source in the end of January, 2026. XML files feature legal metadata extracted from various sources and the respective texts.
+This corpus (as of version `3.1`) includes XML files representing laws of Russian Federation, decrees by the President of RF, regulations by the government published as of July, 2026, last updated from the state source on August, 2, 2026. XML files feature legal metadata extracted from various sources and the respective texts.
 
 The source of texts and metadata is the Information legal system "The legislation of Russian Federation" (IPS Zakonodatelstvo RF) [pravo.gov.ru](http://pravo.gov.ru)). This dabase is state-owned, though not considered to be official publication: it is a plaintext representation of official journals wherein the legislation was published. 
 
