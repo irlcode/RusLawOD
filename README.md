@@ -147,4 +147,5 @@ The corpus is published as a part of scientific project No 17-18-01618 funded by
 
 ## Contact
 
-[Denis Savelev](http://enforce.spb.ru/about-us/team/6922-savelev-denis-aleksandrovich) ([@denissaveliev](https://github.com/denissaveliev)) at the Institute for the Rule of Law (IRL) at the European University at Saint Petersburg (EUSPb) 
+Project author: Denis Savelev ([@denissaveliev](https://github.com/denissaveliev)).
+For inquiries, please contact Ruslan Kuchakov at [rkuchakov@eu.spb.ru](mailto:rkuchakov@eu.spb.ru).
