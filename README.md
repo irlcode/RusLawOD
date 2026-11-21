@@ -111,9 +111,8 @@ perspective (Slozhnost’ pravovyh aktov v Rossii: leksicheskoe i sintaksichesko
 
 ## License
 
-Russian law excludes texts of legal acts from copyright protection so they can be redistributed freely. Official publication metadata are subject to terms at the [source site](http://publication.pravo.gov.ru/od/) (both commercial and non-commercial use allowed providing attribution to the source).
-
-Other materials of the project distributed under the Creative Commons Attribution-NonCommercial 4.0 International license.
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+Creative Commons License Attribution 4.0 International (CC BY 4.0).
 
 ## Citation
 
